@@ -1,0 +1,50 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page_name {
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+.page_name span {
+  color: #037bc0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_container {
+  border-top: 1px solid #e1e1e1;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.hero {
+  background-image: url(../img/principal.jpg);
+  background-size: cover;
+  height: 550px
+}
+
+.category_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
